@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+
+    <!-- Book cover (left side) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="12"
+        android:pathData="M48,32 L128,32 L128,224 L48,224 Z" />
+
+    <!-- Book cover (right side) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="12"
+        android:pathData="M128,32 L208,32 L208,224 L128,224 Z" />
+
+    <!-- Spine / fold line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="6"
+        android:pathData="M128,32 L128,224" />
+
+    <!-- Some text lines on left page -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="4"
+        android:pathData="M60,64 L116,64" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="4"
+        android:pathData="M60,92 L116,92" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="4"
+        android:pathData="M60,120 L116,120" />
+
+    <!-- Some text lines on right page -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="4"
+        android:pathData="M140,64 L196,64" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="4"
+        android:pathData="M140,92 L196,92" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3E4A89"
+        android:strokeWidth="4"
+        android:pathData="M140,120 L196,120" />
+</vector>

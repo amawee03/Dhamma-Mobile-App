@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anta</item>
+        <item>@font/arsenal_bold</item>
+        <item>@font/arsenal_bold_italic</item>
+        <item>@font/playfair</item>
+    </array>
+</resources>

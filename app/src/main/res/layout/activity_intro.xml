@@ -1,0 +1,205 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_bg"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/intro_gradient_background"
+        android:alpha="0.3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="2dp"
+                android:background="@color/saffron"
+                android:layout_marginEnd="12dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_lotus"
+                app:tint="@color/meditation_blue"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="2dp"
+                android:background="@color/saffron"
+                android:layout_marginStart="12dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to"
+            android:textColor="@color/accent"
+            android:textSize="21sp"
+            android:fontFamily="@font/arsenal"
+            android:layout_marginBottom="6dp"
+            android:letterSpacing="0.05"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Three Jewels"
+            android:textColor="@color/coral_red"
+            android:textSize="28sp"
+            android:fontFamily="@font/arsenal_bold_italic"
+            android:layout_marginBottom="4dp"
+            android:letterSpacing="0.02"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="of Buddhism"
+            android:textColor="@color/meditation_blue"
+            android:textSize="25sp"
+            android:fontFamily="@font/arsenal_bold_italic"
+            android:layout_marginBottom="24dp"
+            android:letterSpacing="0.02"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="288dp"
+            android:layout_height="288dp"
+            app:cardBackgroundColor="@color/lotus_white"
+            app:cardCornerRadius="144dp"
+            app:cardElevation="12dp"
+            android:layout_marginVertical="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="252dp"
+                android:layout_height="252dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/secondary_surface"
+                app:cardCornerRadius="126dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imgBuddhaIntro"
+                    android:layout_width="216dp"
+                    android:layout_height="216dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="A sacred image of the Buddha"
+                    android:src="@drawable/ic_buddha"
+                    app:tint="@color/saffron"
+                    android:scaleType="centerInside" />
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Begin your journey of wisdom,\ncompassion, and enlightenment"
+            android:textColor="@color/ink_dark"
+            android:textSize="14sp"
+            android:fontFamily="@font/arsenal"
+            android:layout_marginVertical="18dp"
+            android:lineSpacingExtra="3dp"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:background="@drawable/circle_dot"
+                android:backgroundTint="@color/coral_red"
+                android:layout_marginEnd="6dp" />
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:background="@drawable/circle_dot"
+                android:backgroundTint="@color/saffron"
+                android:layout_marginEnd="6dp" />
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:background="@drawable/circle_dot"
+                android:backgroundTint="@color/meditation_blue" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/accent"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:id="@+id/btnNextIntro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:paddingHorizontal="28dp"
+                android:paddingVertical="14dp"
+                android:minWidth="180dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Begin Journey"
+                    android:textColor="@color/text_on_accent"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/arsenal_bold_italic"
+                    android:layout_marginEnd="8dp"
+                    tools:ignore="HardcodedText" />
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

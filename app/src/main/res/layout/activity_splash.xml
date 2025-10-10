@@ -1,0 +1,54 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_bg"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+
+        <ImageView
+            android:id="@+id/imgBuddha"
+            android:layout_width="280dp"
+            android:layout_height="320dp"
+            android:src="@drawable/icwelcome"
+            android:scaleType="fitCenter"
+            android:contentDescription="Buddha with Dhamma"
+            android:layout_marginBottom="24dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhamma"
+            android:textColor="@color/accent"
+            android:textSize="36sp"
+            android:fontFamily="@font/arsenal_bold_italic"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="8dp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Path to Enlightenment"
+            android:textColor="@color/coral_red"
+            android:textSize="16sp"
+            android:fontFamily="@font/arsenal"
+            android:letterSpacing="0.05"
+            android:alpha="0.8"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

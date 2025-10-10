@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is an Android Vector Drawable file. -->
+<!-- It has been updated to reflect the style of the uploaded image. -->
+<!-- You can save this as an .xml file and place it in your project's res/drawable/ directory. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+
+    <!-- This group contains the paths for the hands. -->
+    <group
+        android:name="hands_group">
+
+        <!-- Right Hand Path (Fill) -->
+        <!-- This path defines the shape and red fill of the right hand. -->
+        <path
+            android:fillColor="#D90429"
+            android:pathData="M128,42.5
+                             C142,82.5 152,132.5 154,172.5
+                             C155,192.5 152,207.5 145,217.5
+                             C160,212.5 170,202.5 175,192.5
+                             C185,172.5 180,152.5 170,142.5
+                             C160,132.5 155,137.5 154,147.5
+                             L154,172.5" />
+
+        <!-- Left Hand Path (Fill) -->
+        <!-- This path defines the shape and red fill of the left hand. -->
+        <path
+            android:fillColor="#D90429"
+            android:pathData="M128,42.5
+                             C114,82.5 104,132.5 102,172.5
+                             C101,192.5 104,207.5 111,217.5
+                             C96,212.5 86,202.5 81,192.5
+                             C71,172.5 76,152.5 86,142.5
+                             C96,132.5 101,137.5 102,147.5
+                             L102,172.5" />
+
+        <!-- Outline Path (Stroke) -->
+        <!-- This path creates the black outline around the hands. -->
+        <path
+            android:strokeColor="#1A1A1A"
+            android:strokeWidth="8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M128,42.5
+                             C114,82.5 104,132.5 102,172.5
+                             C101,192.5 104,207.5 111,217.5
+                             C96,212.5 86,202.5 81,192.5
+                             C71,172.5 76,152.5 86,142.5
+                             C96,132.5 101,137.5 102,147.5
+                             M128,42.5
+                             C142,82.5 152,132.5 154,172.5
+                             C155,192.5 152,207.5 145,217.5
+                             C160,212.5 170,202.5 175,192.5
+                             C185,172.5 180,152.5 170,142.5
+                             C160,132.5 155,137.5 154,147.5" />
+    </group>
+</vector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!--Primary col   -->
+        <color name="primary_bg">#F5E6D3</color>
+        <color name="primary_surface">#F0DCC9</color>
+        <color name="primary_light">#FAF0E6</color>
+
+        <!--Secondary col -->
+        <color name="secondary_surface">#E8D5C4</color>
+        <color name="secondary_dark">#D4C0A8</color>
+        <color name="coral_red">#D2691E</color>
+        <color name="warm_orange">#CD853F</color>
+
+
+        <color name="accent">#2F4F4F</color>
+        <color name="accent_dark">#1C3A3A</color>
+        <color name="accent_light">#4A6B6B</color>
+        <color name="jewel_blue">#4682B4</color>
+
+
+        <color name="ink_dark">#2C2C2C</color>
+        <color name="ink_medium">#5A5A5A</color>
+        <color name="ink_light">#8A8A8A</color>
+        <color name="text_on_accent">#FFFFFF</color>
+
+
+        <color name="saffron">#FF9933</color>
+        <color name="lotus_white">#FFF8DC</color>
+        <color name="meditation_blue">#4A6FA5</color>
+
+
+        <color name="white">#FFFFFF</color>
+        <color name="black">#000000</color>
+        <color name="transparent">#00000000</color>
+        <color name="semi_transparent">#80000000</color>
+
+
+        <color name="success">#8FBC8F</color>
+        <color name="warning">#Daa520</color>
+        <color name="error">#CD5C5C</color>
+        <color name="info">#4682B4</color>
+
+
+</resources>

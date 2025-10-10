@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Dhamma</string>
+
+
+    <string name="tab_home">Home</string>
+    <string name="tab_jataka">Jataka</string>
+    <string name="tab_pirith">Pirith</string>
+    <string name="tab_profile">Profile</string>
+
+    <string name="home_quote">"If you deeply observe, everything is your teacher"</string>
+    <string name="home_quote_author">- Buddha</string>
+    <string name="section_pirith">Pirith</string>
+    <string name="section_jataka">Jataka</string>
+    <string name="section_made_for_you">Made For You</string>
+
+    <string name="pirith_atavisi">Atavisi Piritha</string>
+    <string name="pirith_thun">Thun Sutta</string>
+    <string name="pirith_attanatiya">Atanatiya Sutta</string>
+    <string name="pirith_mangala">Mangala Sutta</string>
+    <string name="pirith_karaniya">Karaniya Metta Sutta</string>
+    <string name="pirith_mora">Mora Sutta</string>
+    <string name="pirith_rathana">Rathana Sutta</string>
+
+    <string name="jataka_sasa">Sasa Jataka</string>
+    <string name="jataka_nalapana">Nalapana Jataka</string>
+    <string name="jataka_vessantara">Vessantara Jataka</string>
+    <string name="jataka_nemi">Nemi Jātaka</string>
+    <string name="jataka_jambuka">Jambuka Jātaka</string>
+    <string name="jataka_udaya">Udaya Jātaka</string>
+    <string name="jataka_nigrodhamiga">Nigrodhamiga Jātaka</string>
+
+
+    <string name="profile_title">Profile</string>
+    <string name="label_name">Name</string>
+    <string name="label_email">Email Address</string>
+    <string name="btn_save">Save</string>
+    <string name="hint_search">Search…</string>
+    <string name="email_address">Email Address</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="back">← Back</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="buddha">Buddha</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="jataka">Jataka</string>
+    <string name="pirith">Pirith</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="ratana_sutta">Ratana Sutta</string>
+    <string name="mangala_sutta">Mangala Sutta</string>
+    <string name="dhammacakkappavattana_sutta">Dhammacakkappavattana Sutta</string>
+    <string name="udaya_j_taka">Udaya Jātaka</string>
+    <string name="thun_sutta">Thun Sutta</string>
+    <string name="made_for_you">MADE FOR YOU</string>
+    <string name="jatakaN">JATAKA</string>
+    <string name="gatha">GATHA</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="example_email_com">amasha@email.com</string>
+    <string name="welcome_image">Welcome Image</string>
+    <string name="atavisi_piritha">Atavisi Piritha</string>
+    <string name="thun_sutta1">Thun Sutta</string>
+    <string name="saved_jataka">SAVED JATAKA</string>
+    <string name="ratana_sutta1">Ratana Sutta</string>
+    <string name="rathana_sutta">Rathana Sutta</string>
+    <string name="karaniya_metta_sutta">Karaniya Metta Sutta</string>
+    <string name="mora_sutta">Mora Sutta</string>
+    <string name="dhammapada_g_th">Dhammapada Gāthā</string>
+    <string name="atanatiya_g_th">Atanatiya Gāthā</string>
+    <string name="jataka1">JATAKA</string>
+</resources>

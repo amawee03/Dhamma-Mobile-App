@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Dhamma" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Apply our 60-30-10 palette -->
+        <item name="colorPrimary">@color/accent</item>  <!-- 10% accent -->
+        <item name="colorPrimaryVariant">@color/ink_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary_surface</item> <!-- 30% -->
+        <item name="colorOnSecondary">@color/ink_dark</item>
+        <item name="android:windowBackground">@color/primary_bg</item> <!-- 60% -->
+    </style>
+</resources>
